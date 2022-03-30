@@ -41,3 +41,85 @@ div.c {
     background-color : yellow;
     transform : scaleY(1.5);
 }
+
+
+/* transition-timing-function */
+.ttf {
+    width : 100px;
+    height : 50px;
+    background : red;
+    color : white;
+    font-weight : bold;
+    transition : width 2s;
+}
+
+
+.ttf:hover {
+    width : 300px;
+}
+
+
+#linear {
+    transition-timing-function : linear;
+}
+
+
+#ease {
+    transition-timing-function : ease;
+}
+
+
+#ease-in {
+    transition-timing-function : ease-in;
+}
+
+
+#ease-out {
+    transition-timing-function : ease-out;
+}
+
+
+#ease-in-out {
+    transition-timing-function : ease-in-out;
+}
+
+
+/* cubic-bezier-function */
+.cbf {
+    width : 100px;
+    height : 50px;
+    background : red;
+    color : white;
+    font-weight : bold;
+    transition : width 2s;
+}
+
+
+.cbf:hover {
+    width : 300px;
+}
+
+
+#div3 {
+    transition-timing-function : cubic-bezier(0,0,1,1);
+}
+
+
+#div4 {
+    transition-timing-function : cubic-bezier(0.25,0.1,0.25,1);
+}
+
+
+#div5 {
+    transition-timing-function : cubic-bezier(0.42,0,1,1);
+}
+
+
+#div6 {
+    transition-timing-function : cubic-bezier(0,0,0.58,1);
+}
+
+
+#div7 {
+    transition-timing-function : cubic-bezier(0.42,0,0.58,1);
+}

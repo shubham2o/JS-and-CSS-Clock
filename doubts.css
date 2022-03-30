@@ -123,3 +123,10 @@ div.c {
 #div7 {
     transition-timing-function : cubic-bezier(0.42,0,0.58,1);
 }
+
+
+/* inset - box-shadow */
+#inset {
+    border : 5px solid purple;
+    box-shadow : 5px 10px 20px 5px yellow inset;
+}
